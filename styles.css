@@ -175,7 +175,7 @@ nav.site .links a:hover { color: var(--heading); text-decoration: none; }
 .chip b { color: var(--accent); font-weight: 700; }
 
 /* ---------- track record / stats ---------- */
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-bottom: 28px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 28px; }
 .stat {
   background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 24px; box-shadow: var(--card-shadow-sm); position: relative; overflow: hidden;
@@ -246,6 +246,23 @@ nav.site .links a:hover { color: var(--heading); text-decoration: none; }
 .contact h2 { font-size: clamp(28px, 4vw, 42px); font-weight: 800; margin-bottom: 14px; }
 .contact p { font-size: 17px; color: var(--text-dim); margin-bottom: 26px; }
 .contact .mail { font-size: 18px; font-weight: 600; }
+
+/* ---------- legal / prose pages ---------- */
+.legal-head { padding: 54px 0 6px; }
+.legal-head h1 { font-size: clamp(30px, 4.5vw, 46px); font-weight: 780; letter-spacing: -1.2px; }
+.legal-head .updated { margin-top: 12px; font-size: 13.5px; color: var(--text-dim); }
+.legal { max-width: 760px; margin: 0 auto; }
+.legal h2 { font-size: 19px; font-weight: 750; margin: 36px 0 10px; }
+.legal h2:first-of-type { margin-top: 0; }
+.legal p { font-size: 15.5px; color: var(--text); margin-bottom: 14px; }
+.legal ul { margin: 4px 0 16px 4px; font-size: 15.5px; color: var(--text); list-style: none; }
+.legal li { position: relative; padding-left: 22px; margin-bottom: 8px; }
+.legal li::before {
+  content: ""; position: absolute; left: 0; top: 10px; width: 7px; height: 7px;
+  border-radius: 2px; background: var(--grad);
+}
+.legal strong { color: var(--heading); font-weight: 700; }
+.legal a { color: var(--accent); font-weight: 600; }
 
 /* ---------- footer ---------- */
 footer.site {
