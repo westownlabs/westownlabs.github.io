@@ -121,8 +121,6 @@ nav.site .links a:hover { color: var(--heading); text-decoration: none; }
 }
 .hero p { font-size: clamp(17px, 2vw, 20px); color: var(--text-dim); max-width: 54ch; margin-bottom: 32px; }
 .hero .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
-.hero-trust { margin-top: 30px; font-size: 13.5px; color: var(--text-dim); letter-spacing: .3px; }
-.hero-trust b { color: var(--heading); font-weight: 700; }
 
 /* hero illustration */
 .hero-visual { position: relative; }
